@@ -11,47 +11,45 @@
     android:orientation="vertical"
     tools:context="com.example.yoon.ex02_twowayactivity.MainActivity">
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:background="#FFE0E0"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/textViewNo"/>
-
-    <TextView
+        android:hint="number 1"
+        android:id="@+id/edit_num1"/>
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:background="#FFE0E0"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/textViewName"/>
-
-    <TextView
+        android:hint="number 2"
+        android:id="@+id/edit_num2"/>
+    <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:background="#FFE0E0"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/textViewPhone"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:gravity="center"
-        android:background="#FFE0E0"
-        android:layout_marginBottom="8dp"
-        android:id="@+id/textViewOver20"/>
-
+        android:id="@+id/radioGroup">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_1"
+            android:id="@+id/radio_add"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_2"
+            android:id="@+id/radio_sub"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_3"
+            android:id="@+id/radio_mul"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radio_4"
+            android:id="@+id/radio_dev"/>
+    </RadioGroup>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:text="Add Contact"
-        android:id="@+id/buttonAddContact"/>
+        android:text="@string/button"
+        android:id="@+id/button"/>
 
 </LinearLayout>

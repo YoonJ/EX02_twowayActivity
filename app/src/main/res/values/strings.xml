@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EX02_twowayActivity</string>
+    <string name="radio_1">더하기</string>
+    <string name="radio_2">빼기</string>
+    <string name="radio_3">곱하기</string>
+    <string name="radio_4">나누기</string>
+    <string name="button">계산하기</string>
 </resources>
